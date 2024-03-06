@@ -1,0 +1,91 @@
+.body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid red;
+    width: 600px;
+    margin-left: 470px;
+    border-radius: 21px;
+}
+
+#qrCodeContainer {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+
+#qrCode {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    #qrCodeContainer {
+        max-width: 500px;
+    }
+}
+
+.login-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.login-header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .login-container {
+      border-radius: 0;
+      box-shadow: none;
+      max-width: none;
+    }
+}
